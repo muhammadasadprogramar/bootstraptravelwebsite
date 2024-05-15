@@ -1,0 +1,106 @@
+.navbar {
+  background-color: rgb(10, 158, 151);
+}
+
+body {
+  background-color: #fafafafa;
+}
+
+.wh {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.nbtn {
+  background-color: rgb(224, 139, 27);
+  border-radius: 1.6em;
+  border: none;
+  outline: none;
+  width: 9rem;
+  margin-left: -5px;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.logos {
+  margin-right: 70px;
+}
+
+.d-block {
+  height: 80vh;
+  object-fit: fill;
+}
+
+.con-text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.gold {
+  font-size: 1.5rem;
+}
+
+span {
+  color: rgb(224, 139, 27);
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.col-12 {
+  margin-top: 20px;
+}
+
+.rr {
+  display: flex;
+  justify-content: space-around;
+}
+
+.circle1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.cad {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cdn {
+  display: flex;
+  justify-content: center;
+}
+
+.c-par {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: rgb(44, 44, 44);
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 24px;
+  align-items: center;
+  color: #fff;
+  padding: 0 25px;
+}
+
+@media (max-width: 420px) {
+  .d-block {
+    height: 50vh;
+  }
+}
